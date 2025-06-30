@@ -1,0 +1,150 @@
+2025-06-30 00:46:18,842 - PavesRAG - INFO - Logging initialized
+2025-06-30 00:49:47,037 - PavesRAG - INFO - Logging initialized
+2025-06-30 00:50:00,475 - PavesRAG - INFO - Logging initialized
+2025-06-30 00:50:02,619 - PavesRAG - INFO - Logging initialized
+2025-06-30 00:50:08,033 - PavesRAG - INFO - Logging initialized
+2025-06-30 00:52:56,116 - PavesRAG - INFO - Logging initialized
+2025-06-30 00:52:57,390 - PavesRAG - INFO - Logging initialized
+2025-06-30 01:00:44,529 - PavesRAG - INFO - Logging initialized
+2025-06-30 01:00:50,780 - PavesRAG - INFO - Logging initialized
+2025-06-30 01:00:52,560 - PavesRAG - INFO - Logging initialized
+2025-06-30 01:00:52,592 - vector_store - INFO - Simple vector store initialized with 36 documents
+2025-06-30 01:00:52,592 - llm_client - WARNING - Using fallback LLM responses - Groq not available
+2025-06-30 01:00:52,602 - rag_system - INFO - Processing document: handbook.pdf
+2025-06-30 01:00:52,888 - document_processor - INFO - Extracted 6523 characters from C:\Users\justv\AppData\Local\Temp\tmpgzzkd8rq.pdf
+2025-06-30 01:00:52,889 - document_processor - INFO - Created 12 chunks from handbook.pdf
+2025-06-30 01:00:52,896 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-30 01:00:52,907 - rag_system - INFO - Successfully added 12 chunks from handbook.pdf
+2025-06-30 01:01:25,682 - PavesRAG - INFO - Logging initialized
+2025-06-30 01:01:25,706 - rag_system - INFO - Processing query: explain discipline policies in the paves...
+2025-06-30 01:01:25,711 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 01:01:25,713 - llm_client - INFO - Using fallback response generation
+2025-06-30 01:02:02,128 - PavesRAG - INFO - Logging initialized
+2025-06-30 01:02:02,156 - rag_system - INFO - Processing query: what are the carrier growth and option s in the paves...
+2025-06-30 01:02:02,161 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 01:02:02,162 - llm_client - INFO - Using fallback response generation
+2025-06-30 01:02:32,695 - PavesRAG - INFO - Logging initialized
+2025-06-30 01:02:32,742 - rag_system - INFO - Processing query: how was the weather today in hyderabad...
+2025-06-30 01:02:32,747 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 01:02:32,749 - llm_client - INFO - Using fallback response generation
+2025-06-30 10:21:02,274 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:23:31,313 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:23:38,498 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:23:38,612 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:27:12,735 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:28:30,128 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:28:33,961 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:28:33,999 - vector_store - INFO - Simple vector store initialized with 48 documents
+2025-06-30 10:28:34,860 - llm_client - INFO - Groq client initialized with model: llama-3.3-70b-versatile
+2025-06-30 10:28:34,868 - rag_system - INFO - Processing document: Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:28:35,102 - document_processor - INFO - Extracted 6523 characters from C:\Users\VENKAT~1.GAL\AppData\Local\Temp\tmpjjcev4n3.pdf
+2025-06-30 10:28:35,104 - document_processor - INFO - Created 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:28:35,124 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-30 10:28:35,125 - rag_system - INFO - Successfully added 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:28:46,579 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:28:46,592 - rag_system - INFO - Processing document: Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:28:46,837 - document_processor - INFO - Extracted 6523 characters from C:\Users\VENKAT~1.GAL\AppData\Local\Temp\tmpvlpjqxio.pdf
+2025-06-30 10:28:46,851 - document_processor - INFO - Created 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:28:46,904 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-30 10:28:46,906 - rag_system - INFO - Successfully added 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:29:19,612 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:29:19,663 - rag_system - INFO - Processing query: discipline policies in this company...
+2025-06-30 10:29:19,671 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 10:29:19,677 - llm_client - INFO - Generating response using Groq API...
+2025-06-30 10:29:21,295 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 10:29:21,301 - llm_client - INFO - Groq API usage - Input tokens: 1004, Output tokens: 230, Total tokens: 1234
+2025-06-30 10:29:21,308 - llm_client - INFO - Generated response of 1275 characters
+2025-06-30 10:29:46,744 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:29:46,807 - rag_system - INFO - Processing query: future carriers in the company...
+2025-06-30 10:29:46,814 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 10:29:46,816 - llm_client - INFO - Generating response using Groq API...
+2025-06-30 10:29:47,748 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 10:29:47,754 - llm_client - INFO - Groq API usage - Input tokens: 809, Output tokens: 196, Total tokens: 1005
+2025-06-30 10:29:47,755 - llm_client - INFO - Generated response of 1064 characters
+2025-06-30 10:30:16,291 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:30:16,343 - rag_system - INFO - Processing query: holidays in the company...
+2025-06-30 10:30:16,350 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 10:30:16,352 - llm_client - INFO - Generating response using Groq API...
+2025-06-30 10:30:17,502 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 10:30:17,508 - llm_client - INFO - Groq API usage - Input tokens: 1168, Output tokens: 255, Total tokens: 1423
+2025-06-30 10:30:17,509 - llm_client - INFO - Generated response of 1286 characters
+2025-06-30 10:31:27,951 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:31:28,048 - rag_system - INFO - Processing query: weather report in hyderabad...
+2025-06-30 10:31:28,059 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 10:31:28,061 - llm_client - INFO - Generating response using Groq API...
+2025-06-30 10:31:29,913 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 10:31:29,916 - llm_client - INFO - Groq API usage - Input tokens: 1004, Output tokens: 103, Total tokens: 1107
+2025-06-30 10:31:29,916 - llm_client - INFO - Generated response of 601 characters
+2025-06-30 10:31:49,651 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:31:49,674 - rag_system - INFO - Processing document: Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:31:50,003 - document_processor - INFO - Extracted 6523 characters from C:\Users\VENKAT~1.GAL\AppData\Local\Temp\tmpwtufns6b.pdf
+2025-06-30 10:31:50,005 - document_processor - INFO - Created 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:31:50,034 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-30 10:31:50,035 - rag_system - INFO - Successfully added 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:36:25,411 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:36:25,521 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:40:03,284 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:40:03,302 - rag_system - INFO - Processing document: Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:40:03,614 - document_processor - INFO - Extracted 6523 characters from C:\Users\VENKAT~1.GAL\AppData\Local\Temp\tmp22ik2_je.pdf
+2025-06-30 10:40:03,615 - document_processor - INFO - Created 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:40:03,645 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-30 10:40:03,645 - rag_system - INFO - Successfully added 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 10:40:24,601 - PavesRAG - INFO - Logging initialized
+2025-06-30 10:40:24,631 - rag_system - INFO - Processing query: discipline policies in this company...
+2025-06-30 10:40:24,645 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 10:40:24,647 - llm_client - INFO - Generating response using Groq API...
+2025-06-30 10:40:26,068 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 10:40:26,149 - llm_client - INFO - Groq API usage - Input tokens: 1004, Output tokens: 245, Total tokens: 1249
+2025-06-30 10:40:26,152 - llm_client - INFO - Generated response of 1416 characters
+2025-06-30 11:05:54,329 - PavesRAG - INFO - Logging initialized
+2025-06-30 11:06:02,224 - PavesRAG - INFO - Logging initialized
+2025-06-30 11:06:04,249 - PavesRAG - INFO - Logging initialized
+2025-06-30 11:06:04,274 - vector_store - INFO - Simple vector store initialized with 96 documents
+2025-06-30 11:06:05,605 - llm_client - INFO - Groq client initialized with model: llama-3.3-70b-versatile
+2025-06-30 11:06:05,618 - rag_system - INFO - Processing document: Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 11:06:05,938 - document_processor - INFO - Extracted 6523 characters from C:\Users\VENKAT~1.GAL\AppData\Local\Temp\tmpyuyuy1ps.pdf
+2025-06-30 11:06:05,940 - document_processor - INFO - Created 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 11:06:05,981 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-30 11:06:05,983 - rag_system - INFO - Successfully added 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 11:06:17,136 - PavesRAG - INFO - Logging initialized
+2025-06-30 11:06:17,162 - rag_system - INFO - Processing query: discipline policies in paves...
+2025-06-30 11:06:17,188 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 11:06:17,194 - llm_client - INFO - Generating response using Groq API...
+2025-06-30 11:06:18,850 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 11:06:18,855 - llm_client - INFO - Groq API usage - Input tokens: 1004, Output tokens: 254, Total tokens: 1258
+2025-06-30 11:06:18,856 - llm_client - INFO - Generated response of 1427 characters
+2025-06-30 11:06:34,717 - PavesRAG - INFO - Logging initialized
+2025-06-30 11:06:34,767 - rag_system - INFO - Processing query: holidays in an year...
+2025-06-30 11:06:34,781 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 11:06:34,783 - llm_client - INFO - Generating response using Groq API...
+2025-06-30 11:06:35,461 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 11:06:35,464 - llm_client - INFO - Groq API usage - Input tokens: 1168, Output tokens: 116, Total tokens: 1284
+2025-06-30 11:06:35,465 - llm_client - INFO - Generated response of 582 characters
+2025-06-30 11:06:54,532 - PavesRAG - INFO - Logging initialized
+2025-06-30 11:06:54,615 - rag_system - INFO - Processing query: who is the ceo of the paves technologies...
+2025-06-30 11:06:54,634 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 11:06:54,636 - llm_client - INFO - Generating response using Groq API...
+2025-06-30 11:06:55,330 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-30 11:06:55,334 - llm_client - INFO - Groq API usage - Input tokens: 1014, Output tokens: 129, Total tokens: 1143
+2025-06-30 11:06:55,335 - llm_client - INFO - Generated response of 657 characters
+2025-06-30 11:20:44,979 - PavesRAG - INFO - Logging initialized
+2025-06-30 11:22:03,315 - PavesRAG - INFO - Logging initialized
+2025-06-30 11:23:05,407 - PavesRAG - INFO - Logging initialized
+2025-06-30 17:55:35,269 - PavesRAG - INFO - Logging initialized
+2025-06-30 17:55:35,273 - PavesRAG - INFO - Logging initialized
+2025-06-30 17:55:52,597 - PavesRAG - INFO - Logging initialized
+2025-06-30 17:55:52,616 - vector_store - INFO - Simple vector store initialized with 108 documents
+2025-06-30 17:55:53,982 - llm_client - INFO - Groq client initialized with model: llama-3.3-70b-versatile
+2025-06-30 17:56:04,772 - PavesRAG - INFO - Logging initialized
+2025-06-30 17:56:09,834 - PavesRAG - INFO - Logging initialized
+2025-06-30 17:56:09,863 - rag_system - INFO - Processing document: Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 17:56:10,190 - document_processor - INFO - Extracted 6523 characters from C:\Users\VENKAT~1.GAL\AppData\Local\Temp\tmp5sg1d5i1.pdf
+2025-06-30 17:56:10,192 - document_processor - INFO - Created 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 17:56:10,234 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-30 17:56:10,236 - rag_system - INFO - Successfully added 12 chunks from Paves Technologies Employee Policy Handbook.pdf
+2025-06-30 17:56:24,920 - PavesRAG - INFO - Logging initialized
+2025-06-30 17:56:24,942 - rag_system - INFO - Processing query: discipline policies in paves...
+2025-06-30 17:56:24,963 - vector_store - INFO - Retrieved 5 similar documents for query
+2025-06-30 17:56:24,968 - llm_client - INFO - Generating response using Groq API...
+2025-06-30 17:56:25,639 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-06-30 17:56:25,641 - llm_client - ERROR - Error generating response: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}

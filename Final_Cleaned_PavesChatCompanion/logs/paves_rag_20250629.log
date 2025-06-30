@@ -1,0 +1,32 @@
+2025-06-29 18:27:50,826 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:27:50,891 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:27:57,349 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:28:08,673 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:29:02,800 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:29:44,222 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:30:18,731 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:31:29,195 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:32:20,240 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:32:28,015 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:32:41,007 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:33:34,976 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:33:34,984 - vector_store - INFO - Simple vector store initialized with 0 documents
+2025-06-29 18:33:35,153 - llm_client - INFO - Groq client initialized with model: llama-3.3-70b-versatile
+2025-06-29 18:33:44,943 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:33:44,950 - rag_system - INFO - Processing document: handbook.pdf
+2025-06-29 18:33:45,097 - document_processor - INFO - Extracted 6523 characters from /tmp/tmpwe9vidug.pdf
+2025-06-29 18:33:45,098 - document_processor - INFO - Created 12 chunks from handbook.pdf
+2025-06-29 18:33:45,105 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-29 18:33:45,105 - rag_system - INFO - Successfully added 12 chunks from handbook.pdf
+2025-06-29 18:33:55,704 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:33:55,709 - rag_system - INFO - Processing document: handbook.pdf
+2025-06-29 18:33:55,821 - document_processor - INFO - Extracted 6523 characters from /tmp/tmpcu9iga4d.pdf
+2025-06-29 18:33:55,822 - document_processor - INFO - Created 12 chunks from handbook.pdf
+2025-06-29 18:33:55,828 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-29 18:33:55,829 - rag_system - INFO - Successfully added 12 chunks from handbook.pdf
+2025-06-29 18:33:56,673 - PavesRAG - INFO - Logging initialized
+2025-06-29 18:33:56,678 - rag_system - INFO - Processing document: handbook.pdf
+2025-06-29 18:33:56,795 - document_processor - INFO - Extracted 6523 characters from /tmp/tmpsff2a7oa.pdf
+2025-06-29 18:33:56,795 - document_processor - INFO - Created 12 chunks from handbook.pdf
+2025-06-29 18:33:56,803 - vector_store - INFO - Successfully added 12 documents to vector store
+2025-06-29 18:33:56,803 - rag_system - INFO - Successfully added 12 chunks from handbook.pdf
