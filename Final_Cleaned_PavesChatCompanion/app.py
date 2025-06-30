@@ -9,10 +9,11 @@ from document_processor import DocumentProcessor
 from vector_store import VectorStore
 from llm_client import LLMClient
 from utils import setup_logging, format_sources, clean_text
-
+from dotenv import load_dotenv
 # ⚠️ Security Warning
 # Replace this with environment variable usage in production
-GROQ_API_KEY = "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"
+load_dotenv()  # Loads variables from .env file into environment
+GROQ_API_KEY = os.getenv("GROQ_API_KEY") 
 
 logger = setup_logging()
 
