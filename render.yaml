@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: paveschatcompanion
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: OPENAI_API_KEY
+        value: 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
+    plan: free
+    branch: main
+    repo: https://github.com/VENKATESH0018/chatbot
+    region: oregon
